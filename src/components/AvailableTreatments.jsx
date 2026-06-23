@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaBone, FaCut, FaAllergies, FaStomach, FaHeartbeat, FaFemale, FaChild, FaLungs, FaBrain, FaBaby, FaChevronDown } from 'react-icons/fa';
-import { GiStomach, GiHairStrands, GiSkeleton, GiLungs, GiBrain, GiBabyFace } from 'react-icons/gi';
-import { MdHealthAndSafety, MdPregnantWoman } from 'react-icons/md';
+import { FaChevronDown } from 'react-icons/fa';
 
 const treatmentCategories = [
   {
