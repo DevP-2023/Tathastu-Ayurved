@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Brand & About */}
           <div>
             <div className="flex items-center mb-6">
-              <img src={logo} alt="तथास्तु Ayurveda" className="h-16 w-auto object-contain brightness-0 invert" />
+              <img src={logo} alt="तथास्तु Ayurveda" className="h-16 w-auto object-contain" />
             </div>
             <p className="text-white/70 leading-relaxed mb-6">
               Experience the power of authentic Ayurveda. We provide personalized holistic healthcare solutions to help you achieve sustainable physical, mental, and spiritual well-being.

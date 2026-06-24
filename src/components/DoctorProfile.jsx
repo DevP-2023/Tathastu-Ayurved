@@ -60,7 +60,7 @@ const DoctorProfile = () => {
                 <div className="flex flex-wrap gap-4 mt-6 mb-8">
                   <div className="flex items-center gap-2 bg-secondary-light/20 text-primary-dark px-4 py-2 rounded-full font-semibold">
                     <FaGraduationCap className="text-xl" />
-                    <span>BAMS, MD (Ayurveda)</span>
+                    <span>BAMS .MD(AM).CSD</span>
                   </div>
                   <div className="flex items-center gap-2 bg-accent/20 text-accent-dark px-4 py-2 rounded-full font-semibold">
                     <FaMedal className="text-xl" />
@@ -72,7 +72,7 @@ const DoctorProfile = () => {
                 <div className="mb-8">
                   <h3 className="text-xl font-bold text-text mb-3 font-serif">About The Doctor</h3>
                   <p className="text-text-light leading-relaxed mb-4">
-                    With over 15 years of dedicated practice in Ayurvedic medicine, Dr. Rupa brings a profound understanding of traditional healing methodologies combined with modern medical insights. Her approach is deeply rooted in the philosophy of treating the whole person rather than just the symptoms.
+                    With over 15 years of dedicated practice in Ayurvedic medicine, Dr. Rupali brings a profound understanding of traditional healing methodologies combined with modern medical insights. Her approach is deeply rooted in the philosophy of treating the whole person rather than just the symptoms.
                   </p>
                   <p className="text-text-light leading-relaxed">
                     She is committed to patient-centered care, taking the time to understand each individual's unique constitution (Prakriti) and developing tailored treatment plans that empower patients on their journey to holistic well-being.

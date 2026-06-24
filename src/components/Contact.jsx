@@ -6,9 +6,9 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-white">
       <div className="container mx-auto px-4 md:px-8">
-        
+
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <motion.span 
+          <motion.span
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -16,7 +16,7 @@ const Contact = () => {
           >
             Get In Touch
           </motion.span>
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -25,7 +25,7 @@ const Contact = () => {
           >
             Visit Our Clinic
           </motion.h2>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -37,9 +37,9 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
-          
+
           {/* Contact Details */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -53,10 +53,10 @@ const Contact = () => {
                 <h4 className="text-xl font-bold text-text mb-2">Clinic Address</h4>
                 <p className="text-text-light leading-relaxed">
                   Behind Rama Bangles Store,
-Near Prajapita Brahmakumari Temple,
-Bhanapeth Ward, Kasturba Road,
-Chandrapur, Maharashtra 442402<br />
-                 
+                  Near Prajapita Brahmakumari Temple,
+                  Bhanapeth Ward, Kasturba Road,
+                  Chandrapur, Maharashtra 442402<br />
+
                 </p>
               </div>
             </div>
@@ -84,7 +84,7 @@ Chandrapur, Maharashtra 442402<br />
                 <h4 className="text-xl font-bold text-text mb-2">Email Address</h4>
                 <p className="text-text-light leading-relaxed">
                   tathastuayurved08@gmail.com<br />
-                  
+
                 </p>
               </div>
             </div>
@@ -118,26 +118,26 @@ Chandrapur, Maharashtra 442402<br />
           </motion.div>
 
           {/* Map */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             className="w-full h-[400px] lg:h-full min-h-[400px] rounded-3xl overflow-hidden shadow-lg border-4 border-white bg-gray-100 relative"
           >
             {/* Using an iframe for Google Maps embed (Placeholder location) */}
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1691234567890!5m2!1sen!2s" 
-              width="100%" 
-              height="100%" 
-              style={{ border: 0 }} 
-              allowFullScreen="" 
-              loading="lazy" 
+            <iframe
+              src="https://maps.google.com/maps?q=Tathastu%20Ayurved,%20Bhana%20Peth%20Ward,%20Kasturba%20Rd,%20behind%20Rama%20Bangal%20Stores,%20near%20Prajapita%20Brahmakumari%20Temple,%20Bazar%20Ward,%20Chandrapur,%20Maharashtra%20442402&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Clinic Location"
               className="absolute inset-0"
             ></iframe>
           </motion.div>
-          
+
         </div>
       </div>
     </section>
