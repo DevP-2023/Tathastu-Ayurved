@@ -7,7 +7,7 @@ import logo from '../assets/logo.png';
 
 const stats = [
   { icon: <FaUserMd className="text-lg sm:text-xl text-primary" />, value: '15+', label: 'Years Experience' },
-  { icon: <FaSmileBeam className="text-lg sm:text-xl text-primary" />, value: '10k+', label: 'Happy Patients' },
+  { icon: <FaSmileBeam className="text-lg sm:text-xl text-primary" />, value: 'Thousands', label: 'of Patients' },
   { icon: <FaHeartbeat className="text-lg sm:text-xl text-primary" />, value: '100%', label: 'Personalized Care' },
   { icon: <FaLeaf className="text-lg sm:text-xl text-primary" />, value: 'Natural', label: 'Facilities' },
 ];
