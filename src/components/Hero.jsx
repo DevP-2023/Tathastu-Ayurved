@@ -6,10 +6,10 @@ import doctorPhoto from '../assets/Doctor Photo.png';
 import logo from '../assets/logo.png';
 
 const stats = [
-  { icon: <FaUserMd className="text-xl text-primary" />, value: '15+', label: 'Years Experience' },
-  { icon: <FaSmileBeam className="text-xl text-primary" />, value: '10k+', label: 'Happy Patients' },
-  { icon: <FaHeartbeat className="text-xl text-primary" />, value: '100%', label: 'Personalized Care' },
-  { icon: <FaLeaf className="text-xl text-primary" />, value: 'Natural', label: 'Facilities' },
+  { icon: <FaUserMd className="text-lg sm:text-xl text-primary" />, value: '15+', label: 'Years Experience' },
+  { icon: <FaSmileBeam className="text-lg sm:text-xl text-primary" />, value: '10k+', label: 'Happy Patients' },
+  { icon: <FaHeartbeat className="text-lg sm:text-xl text-primary" />, value: '100%', label: 'Personalized Care' },
+  { icon: <FaLeaf className="text-lg sm:text-xl text-primary" />, value: 'Natural', label: 'Facilities' },
 ];
 
 const Hero = () => {
@@ -104,7 +104,7 @@ const Hero = () => {
 
       {/* Trust Indicators / Stats */}
       <div className="container mx-auto px-4 md:px-8 relative z-20 -mt-8 md:-mt-16 pb-12">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4">
           {stats.map((stat, index) => (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -112,13 +112,13 @@ const Hero = () => {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
               key={index}
-              className="glass rounded-xl p-4 flex flex-col items-center text-center hover:-translate-y-1 transition-transform duration-300"
+              className="glass rounded-xl p-2 sm:p-4 flex flex-col items-center text-center hover:-translate-y-1 transition-transform duration-300"
             >
-              <div className="w-12 h-12 rounded-full bg-secondary-light/20 flex items-center justify-center mb-2">
+              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-secondary-light/20 flex items-center justify-center mb-1 sm:mb-2">
                 {stat.icon}
               </div>
-              <h3 className="text-xl font-bold text-primary-dark mb-1">{stat.value}</h3>
-              <p className="text-text-light font-medium text-xs">{stat.label}</p>
+              <h3 className="text-lg sm:text-xl font-bold text-primary-dark mb-0.5 sm:mb-1">{stat.value}</h3>
+              <p className="text-text-light font-medium text-[10px] sm:text-xs leading-tight">{stat.label}</p>
             </motion.div>
           ))}
         </div>
